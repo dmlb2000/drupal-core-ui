@@ -1,0 +1,13 @@
+{
+    "name": "dmlb2000/drupal-core-ui",
+    "description": "Drupal created by dmlb2000",
+    "type": "drupal-profile",
+    "license": "LGPL-3.0-or-later",
+    "authors": [
+        {
+            "name": "David Brown",
+            "email": "dmlb2000@gmail.com"
+        }
+    ],
+    "require": {}
+}
