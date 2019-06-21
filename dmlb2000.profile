@@ -99,7 +99,7 @@ function dmlb2000_set_logo() {
   Drupal::configFactory()
     ->getEditable('system.theme.global')
     ->set('logo', [
-      'path' => $dmlb2000_path . '/dmlb2000.png',
+      'path' => $dmlb2000_path . '/dmlb2000-small.png',
       'url' => '',
       'use_default' => FALSE,
     ])
