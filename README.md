@@ -1,2 +1,3 @@
-# drupal-core-ui
-Drupal Core UI Test
+# Drupal Install Profile
+
+Drupal install profile I use to play with stuff.
