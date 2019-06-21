@@ -1,6 +1,6 @@
 {
-    "name": "dmlb2000/drupal-core-ui",
-    "description": "Drupal created by dmlb2000",
+    "name": "dmlb2000/drupal-profile",
+    "description": "Drupal profile created by dmlb2000",
     "type": "drupal-profile",
     "license": "LGPL-3.0-or-later",
     "authors": [
