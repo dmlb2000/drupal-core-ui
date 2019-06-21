@@ -10,13 +10,9 @@
         }
     ],
     "require": {
+      "drupal/core": "^8.7",
 	    "cweagans/composer-patches": "^1.6.0",
 	    "drupal-composer/drupal-scaffold": "^2.0.0",
-	    "drupal/lightning_api": "^4.2",
-	    "drupal/lightning_core": "^4.1",
-	    "drupal/lightning_layout": "2.x-dev",
-	    "drupal/lightning_media": "^3.8",
-	    "drupal/lightning_workflow": "^3.6",
 	    "oomphinc/composer-installers-extender": "^1.1"
     },
     "config": {
@@ -69,9 +65,11 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "scripts": {
-	    "drupal-scaffold": "DrupalComposer\\DrupalScaffold\\Plugin::scaffold",
-	    "package": "Acquia\\Lightning\\Composer\\Package::execute",
-	    "pull": "Acquia\\Lightning\\Commands\\FileCommands::pull",
-	    "push": "Acquia\\Lightning\\Commands\\FileCommands::push"
+	    "drupal-scaffold": "DrupalComposer\\DrupalScaffold\\Plugin::scaffold"
+    },
+    "require-dev": {
+        "drupal/devel": "^2.1",
+        "drupal/devel_php": "^1.0",
+        "drupal/devel_generate": "^2.1"
     }
 }
