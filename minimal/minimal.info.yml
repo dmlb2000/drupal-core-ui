@@ -1,0 +1,11 @@
+---
+name: minimal
+core: 8.x
+type: profile
+description: 'A new Drupal created by dmlb2000'
+version: '8.x-1.x-dev'
+install: []
+themes:
+  - bartik
+  - seven
+project: dmlb2000
