@@ -12,8 +12,11 @@ install:
   - uc_role
   - tablefield
   - pacifica
+  - admin_toolbar
+  - ckeditor
   - devel
   - devel_php
+  - devel_generate
   - easy_install
 themes:
   - bartik
