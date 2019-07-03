@@ -4,7 +4,17 @@ core: 8.x
 type: profile
 description: 'A new Drupal created by dmlb2000'
 version: '8.x-1.x-dev'
-install: []
+install:
+  - filebrowser
+  - uc_cart
+  - uc_cart_links
+  - uc_file
+  - uc_role
+  - tablefield
+  - pacifica
+  - devel
+  - devel_php
+  - easy_install
 themes:
   - bartik
   - seven
