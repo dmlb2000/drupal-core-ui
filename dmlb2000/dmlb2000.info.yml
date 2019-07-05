@@ -1,24 +1,65 @@
 ---
 name: dmlb2000
-core: 8.x
 type: profile
 description: 'A new Drupal created by dmlb2000'
+core: 8.x
+project: dmlb2000
+distribution:
+    name: dmlb2000
 version: '8.x-1.x-dev'
 install:
-  - filebrowser
-  - uc_cart
-  - uc_cart_links
-  - uc_file
-  - uc_role
-  - tablefield
   - pacifica
+  - pacifica_uploader
+  - automated_cron
   - admin_toolbar
+  - admin_toolbar_tools
+  - node
+  - history
+  - block
+  - breakpoint
   - ckeditor
+  - color
+  - config
+  - comment
+  - contextual
+  - contact
+  - menu_link_content
+  - datetime
+  - block_content
+  - quickedit
+  - editor
+  - help
+  - image
+  - menu_ui
+  - options
+  - path
+  - page_cache
+  - dynamic_page_cache
+  - big_pipe
+  - taxonomy
+  - dblog
+  - search
+  - shortcut
+  - toolbar
+  - field_ui
+  - file
+  - rdf
+  - views
+  - views_ui
+  - tour
   - devel
   - devel_php
   - devel_generate
   - easy_install
+  - php
+  - workflow
+  - workflow_access
+  - workflow_devel
+  - workflow_operations
+  - content_moderation
+  - layout_builder
+  - field_layout
+  - workflow_ui
 themes:
   - bartik
   - seven
-project: dmlb2000
